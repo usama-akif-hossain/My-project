@@ -1,0 +1,68 @@
+/* 
+full card er kaj kora hoche */
+
+.card{
+    width: 300px;      /*card widh kora hoi jeno onno card er sate small/bro na dekai */
+    border: 2px solid sandybrown;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(165, 42, 42, 0.44);
+    text-align: left;
+}
+
+/* card image er jonne */
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* #card er h3 gula  */
+.card h3{
+    font-size: 1.25em;   /*lekhar size*/
+    font-weight: 700;    /*lekha kto tuku mota hbe /* */
+}
+
+ /* #card er button er kaj */
+
+.card button {
+    background-color: aqua;
+    padding: 10px 30px;
+    font-size: 1.25em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: orange;
+    color: white;
+}
+
+.card:hover{
+    background-color:rgba(127, 255, 212, 0.284) ;
+}
+
+
+
+body{
+    max-width: 1170px; 
+    background-color: beige;
+    margin: 0 auto ;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
+.card-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.card-section{
+    text-align: center;
+    
+}
