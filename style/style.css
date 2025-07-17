@@ -1,6 +1,13 @@
 /* 
 full card er kaj kora hoche */
 
+/* *{
+    margin 0;
+    padding: 0;
+    box-sizing: border-box; /* tkhn e kaj a lge jkhn kotao ami height r weight use kre
+
+} */
+
 .card{
     width: 300px;      /*card widh kora hoi jeno onno card er sate small/bro na dekai */
     border: 2px solid sandybrown;
@@ -14,6 +21,7 @@ full card er kaj kora hoche */
 .card img{
     width: 100%;
     border-radius: 10px;
+    height: 300px;
 }
 
 /* #card er h3 gula  */
@@ -59,6 +67,7 @@ body{
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
+    justify-content: center;
     
 }
 
@@ -66,3 +75,4 @@ body{
     text-align: center;
     
 }
+
